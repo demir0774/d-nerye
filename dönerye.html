@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<style>
+body {
+	background-color:orange
+}
+</style>
+<title>dönerye</title>
+</head>
+<body>
+<script>
+function donerye(){
+ 
+var yenendoner=document.getElementById("doner");
+yenendoner.value=Number(yenendoner.value)+1;
+}
+ 
+</script>
+
+<h1><font face="Arial">Döner Yemek İçin Tıkla</h1>
+<p><font face="Arial">Tıklayarak Döner Yeme Similatörü</p>
+<input type="image" onclick="donerye()" src="döner.jpg" width="500px"><br>
+<p>Yediğin Döner Porsiyonu Sayısı: </p>
+<input type="button" id="doner" value="0" width="1000px">
+
+</body>
+</html>
